@@ -1,0 +1,96 @@
+#empty-top-filler {
+  height: 35px;
+}
+
+#name, #hidden-content {
+  height: 60px;
+  padding: 0px;
+}
+
+#name {
+  margin-left: 15px;
+}
+
+#hidden-content {
+  margin-left: -15px;
+}
+
+#name span {
+  position: absolute;
+  z-index: 1;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  -webkit-transition: opacity 0s ease 0.2s;
+  -moz-transition: opacity 0s ease 0.2s;
+  -o-transition: opacity 0s ease 0.2s;
+  transition: opacity 0s ease 0.2s;
+}
+
+#name span span {
+  background: #3A3435;
+  width: 7px;
+  height: 7px;
+  border-radius: 8px;
+  margin: 1px 1px 0 0;
+  cursor: pointer;
+}
+
+.navbar-wrapper {
+  height: 45px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  height: 45px;
+  list-style: none;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.navbar li {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  line-height: 45px;
+  padding-left: 0px;
+  padding-right: 45px;
+}
+
+.navbar li a {
+  font-size: 14px;
+  cursor: pointer;
+  color: #BCBEC0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: #3A3435;
+}
+
+.navbar .nav-icons {
+  float: right;
+  padding-right: 0px;
+  padding-left: 24px;
+}
+
+.row {
+  max-width: 980px;
+  margin: 0px auto;
+  float: none;
+}
+
+#navbar-fixed {
+  visibility: hidden;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+  background-color: #FFFFFF;
+  position:fixed;
+}
+
+#navbar-fixed .navbar-wrapper {
+  margin-bottom: 4px;
+}

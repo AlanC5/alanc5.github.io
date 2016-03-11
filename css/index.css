@@ -1,0 +1,10 @@
+#quote-wrapper {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#quote-wrapper p {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #3A3435;
+}

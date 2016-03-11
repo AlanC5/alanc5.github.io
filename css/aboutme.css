@@ -1,0 +1,10 @@
+#aboutme-wrapper {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#aboutme-wrapper p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #3A3435;
+}
